@@ -2,7 +2,8 @@
 
 ☁️ Cloud Engineer | DevOps | Terraform | Azure Architecture | Infrastructure as Code
 
-I build and automate secure cloud infrastructure using modern DevOps practices and Infrastructure as Code.  
+I build and automate secure cloud infrastructure using modern DevOps practices and Infrastructure as Code. 
+
 My projects demonstrate hands-on experience designing cloud systems, managing identity services, and deploying scalable infrastructure across Azure and AWS environments.
 
 ---
