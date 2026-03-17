@@ -1,157 +1,208 @@
 # 👋 Hi, I'm Ken Thomas
 
-☁️ Cloud Engineer | DevOps | Infrastructure as Code | Terraform | Azure Architecture
+☁️ Cloud Engineer | DevOps | Terraform | Azure Architecture | Infrastructure as Code
 
-I design, automate, and secure cloud infrastructure using Infrastructure as Code, DevOps pipelines, and modern cloud architecture patterns.
-
-My focus is building **scalable, secure, and production-ready cloud environments** across Azure, AWS, and multi-cloud ecosystems.
+I build and automate secure cloud infrastructure using modern DevOps practices and Infrastructure as Code.  
+My projects demonstrate hands-on experience designing cloud systems, managing identity services, and deploying scalable infrastructure across Azure and AWS environments.
 
 ---
 
-# 🚀 Cloud Architecture Portfolio
+# ☁️ Cloud Architecture Portfolio
 
-## ☁️ Azure Cloud Labs
+## 🔐 Azure Secure Secrets Architecture
 
-### 🔐 Secure Secrets Architecture
-Terraform deployment of Azure infrastructure integrating:
+Terraform deployment of a secure Azure application environment using identity-based authentication and centralized secret management.
 
+### Architecture
+
+User → Web App → Managed Identity → Azure Key Vault → Azure SQL Database
+
+### Technologies Used
+
+- Terraform
 - Azure Key Vault
-- Managed Identities
-- RBAC
 - Azure SQL Database
-- Secure secret injection
-- Infrastructure as Code automation
+- Managed Identity
+- RBAC
+- Azure Virtual Network
 
-Repo:
+### Infrastructure Components
+
+- Resource Group  
+- Virtual Network  
+- Subnet  
+- Azure Key Vault  
+- Azure SQL Database  
+- Application Layer  
+
+Repo  
 https://github.com/KenInTheLab/azure-secure-secrets-architecture
 
 ---
 
-### 🌐 Azure Static Website Hosting
+## 🌐 Azure Static Website Deployment
 
-Deployment of a static website using:
+Deployment of a static website using Azure Storage static hosting.
+
+### Architecture
+
+User → Internet → Azure Storage Static Website → HTML / CSS / JavaScript
+
+### Technologies Used
 
 - Azure Storage
 - Static Website Hosting
-- Infrastructure as Code
-- Public endpoint configuration
+- Cloud Storage Configuration
+- DNS Integration
 
-Repo:
+Repo  
 https://github.com/KenInTheLab/Active-storage-website
 
 ---
 
-### 🤖 Azure AI Chatbot
+## 🤖 Azure AI Chatbot Deployment
 
-Cloud deployment architecture including:
+Cloud deployment of an AI-powered chatbot using Azure services.
+
+### Architecture
+
+User → Web Application → Azure API → Azure OpenAI Service → Response
+
+### Technologies Used
 
 - Azure OpenAI
 - Azure App Service
-- API integrations
-- Cloud hosted AI solution
+- API Integration
+- Cloud Application Hosting
 
-Repo:
+Repo  
 https://github.com/KenInTheLab/Azure-Ai-Chabot
 
 ---
 
-# 🖥 Infrastructure Projects
+# 🖥 Identity Infrastructure Labs
 
-### Active Directory Lab Environment
+## Active Directory Domain Lab
 
-Deployment of Windows Server virtual machines simulating enterprise identity infrastructure.
+Enterprise identity environment simulated using Windows Server and Active Directory.
 
-Includes:
+### Architecture
 
-- Active Directory Domain Services
-- User provisioning
-- Password reset automation
-- Enterprise authentication flows
+User → Domain Controller → Active Directory → Authentication Services
 
-Repos:
+### Skills Demonstrated
 
-Active Directory VM  
+- Domain Controller setup
+- Active Directory installation
+- Identity authentication
+- Directory management
+- Enterprise authentication workflows
+
+Repo  
 https://github.com/KenInTheLab/ActiveDirectory-VM
 
-Active Directory Password Reset  
+---
+
+## Active Directory Password Reset Lab
+
+Simulation of real-world IT support workflows used by enterprise help desk teams.
+
+### Skills Demonstrated
+
+- Password reset procedures
+- Account unlock troubleshooting
+- User authentication management
+- Help desk identity support
+
+Repo  
 https://github.com/KenInTheLab/ActiveDirectory-Password-Reset
 
-Active Directory User Management  
+---
+
+## Active Directory User Management Lab
+
+Hands-on simulation of enterprise user provisioning and access control.
+
+### Skills Demonstrated
+
+- Creating user accounts
+- Managing group memberships
+- Organizational unit management
+- Access control configuration
+
+Repo  
 https://github.com/KenInTheLab/ActiveDirectory-UserManagement
 
 ---
 
 # ⚙️ DevOps & Infrastructure Automation
 
-### Terraform Infrastructure Deployment
+## Terraform Infrastructure Deployment
 
-Automated provisioning of:
+Automated infrastructure deployment using Terraform.
+
+### Infrastructure Provisioned
 
 - Virtual Networks
 - Subnets
 - Virtual Machines
 - Network Security Groups
-- Cloud infrastructure automation
+- Cloud Infrastructure Automation
 
-Repo:
+Repo  
 https://github.com/KenInTheLab/devops-projects
 
 ---
 
-# 🧠 Core Cloud Skills
+# 🧰 Core Technical Skills
 
 ### Cloud Platforms
-Azure  
-AWS
+- Microsoft Azure  
+- Amazon Web Services (AWS)
 
 ### Infrastructure as Code
-Terraform  
-ARM Templates
+- Terraform  
+- ARM Templates  
 
 ### DevOps
-GitHub  
-CI/CD Pipelines  
-Automation
+- GitHub  
+- CI/CD Concepts  
+- Infrastructure Automation  
 
 ### Identity & Security
-Active Directory  
-RBAC  
-Cloud Security Architecture
+- Active Directory  
+- RBAC  
+- Cloud Security Architecture  
 
 ### Networking
-Virtual Networks  
-Subnets  
-Network Security Groups
+- Virtual Networks  
+- Subnets  
+- Network Security Groups  
+- TCP/IP Fundamentals  
 
 ### Operating Systems
-Windows Server  
-Linux
+- Windows Server  
+- Linux  
 
 ---
 
-# 🧰 Technology Stack
+# 💻 Technology Stack
 
 | Category | Tools |
 |--------|--------|
 | Cloud | Azure, AWS |
 | IaC | Terraform |
-| DevOps | GitHub, CI/CD |
-| Security | Key Vault, RBAC |
+| DevOps | GitHub |
 | Identity | Active Directory |
+| Security | RBAC, Key Vault |
 | Networking | VNet, Subnets |
-| OS | Linux, Windows |
+| OS | Windows Server, Linux |
 
 ---
 
 # 📊 GitHub Stats
 
 ![Ken's GitHub stats](https://github-readme-stats.vercel.app/api?username=KenInTheLab&show_icons=true&theme=tokyonight)
-
----
-
-# 🔥 Most Used Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KenInTheLab&layout=compact&theme=tokyonight)
 
 ---
 
@@ -165,6 +216,6 @@ ken.thomas.tt@gmail.com
 
 ---
 
-# 🧭 Mission
+# 🎯 Career Mission
 
-Build secure, automated cloud environments that scale globally through infrastructure automation and modern cloud architecture principles.
+My goal is to continue building real-world cloud infrastructure projects that demonstrate enterprise architecture patterns, infrastructure automation, and secure system design while progressing toward advanced roles in Cloud Engineering and DevOps.
